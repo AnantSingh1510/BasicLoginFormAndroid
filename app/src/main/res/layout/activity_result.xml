@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical"
+    android:padding="100dp"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:id="@+id/fullName_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:textSize="16dp"
+        tools:text="Anant Singh" />
+
+    <TextView
+        android:id="@+id/phoneNumber_textView"
+        android:textColor="#7789FF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+        tools:text="Phone number" />
+
+    <TextView
+        android:id="@+id/email_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+        android:textColor="#7789FF"
+        tools:text="Email" />
+
+</LinearLayout>
